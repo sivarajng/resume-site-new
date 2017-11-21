@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-// import * as $ from 'jquery';
+import * as $ from 'jquery';
 // declare var $ :any;
 
 
@@ -15,7 +15,7 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit() {
 
-    $(document).ready(() => {
+    $(document).ready(function(res) {
       $('.button-collapse').sideNav();
     });
 

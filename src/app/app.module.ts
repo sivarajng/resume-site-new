@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import 'jquery';
-import 'hammerjs';
-import 'jquery-hammerjs';
+// import 'jquery';
+// import 'hammerjs';
+// import 'jquery-hammerjs';
 // import 'velocity';
-import 'materialize-css';
-// import 'materialize-css/dist/js/materialize.js'
+// import 'materialize-css';
+// import 'materialize-sass';
+import 'materialize-css/dist/js/materialize.js'
 import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
