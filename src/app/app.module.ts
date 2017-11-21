@@ -9,6 +9,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 
+import { appRoutes } from './app.routes';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { AcademyComponent } from './academy/academy.component';
+import { ProjectsComponent } from './projects/projects.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,10 +23,15 @@ import { SkillsComponent } from './skills/skills.component';
     RightPaneComponent,
     NavBarComponent,
     HomeComponent,
-    SkillsComponent
+    SkillsComponent,
+    CertificationsComponent,
+    ExperienceComponent,
+    AcademyComponent,
+    ProjectsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    appRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]
